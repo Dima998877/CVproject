@@ -1,7 +1,5 @@
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d;
     --main-gray: #303841;
   }
 
@@ -41,12 +39,43 @@ html {
     font-size: 55%;
   }
 }
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fonts/montserrat-light-webfont.woff2"),
+    url("fonts/montserrat-light-webfont.woff");
+    font-weight: 300;
+    font-style:normal;
+    font-display: swap;
+}
 
-
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fonts/montserrat-lightitalic-webfont.woff2"),
+    url("fonts/montserrat-lightitalic-webfont.woff");
+    font-weight: 300;
+    font-style:italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fonts/montserrat-regular-webfont.woff2"),
+    url("fonts/montserrat-regular-webfont.woff");
+    font-weight: 400;
+    font-style:normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fonts/montserrat-semibold-webfont.woff2"),
+    url("fonts/montserrat-semibold-webfont.woff");
+    font-weight: 600;
+    font-style:normal;
+    font-display: swap;
+}
 
 
 body{
-  font-family: montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Montserrat, system-ui, -apple-system, sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
